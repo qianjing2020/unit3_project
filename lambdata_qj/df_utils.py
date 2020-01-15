@@ -12,7 +12,7 @@ def nan_finder(df):
     input pandas dataframe
     output rows and cols where the nans are
     """ 
-    [(i,j) for i,j in zip(*np.where(df.isnull()))]
+    return [(i,j) for i,j in zip(*np.where(df.isnull()))]
     # to confirm nan
     # [df.iloc[i,j] for i,j in zip(*np.where(z))]
     
