@@ -16,7 +16,7 @@ def nan_finder(df):
     # to confirm nan
     # [df.iloc[i,j] for i,j in zip(*np.where(z))]
     
-nan_finder(TEST_DF)  
+
 
 
 def uniform_random(X1=0, X2=1, n=10):
